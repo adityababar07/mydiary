@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django-filter = "*"
+djangorestframework = "*"
+Django = "==3.0"
+Markdown = "*"
+django-cors-headers = "*"
+pylint-django = "*"
+Pillow = "*"
+psycopg2-binary = "==2.8.6"
+pylint = "*"
+gunicorn = "==19.9.0"
+dj-database-url = "==0.5.0"
+whitenoise = "==5.2.0"
+autopep8 = "*"
+cloudinary = "*"
+dj3-cloudinary-storage = "*"
+
+[dev-packages]
+pylint = "*"
+
+[requires]
+python_version = "3.7"
